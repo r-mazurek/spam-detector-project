@@ -1,6 +1,6 @@
 ### Project Overview
 
-In this project, I developed a simple email classification app that categorizes user-submitted emails as either spam or not-spam. To achieve this, I trained a machine learning model on pre-processed data, evaluated its performance, and successfully optimized it, reducing the error rate by 25%. The final model was exported using joblib and integrated into a user-friendly GUI built with Tkinter.
+In this project, I developed a simple email classification app that categorizes user-submitted emails as either spam or not-spam. To achieve this, I trained a machine learning model on pre-processed data, evaluated its performance, and successfully optimized it, reducing the initial error rate by over 25%. The final model was exported using joblib and integrated into a user-friendly GUI built with Tkinter.
 
 ### Documentation
 
