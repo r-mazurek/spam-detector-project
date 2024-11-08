@@ -4,13 +4,13 @@ This project is a spam detection tool bundled with a simple and intuitive GUI. T
 
 ### Project Overview
 
-The spam detection tool uses a Multinomial Naive Bayes model to label emails as spam or ham (meaning not-spam), based on both the subject and the message. The model was trained on a publicly available dataset of labeled emails (credited in the documentation) and can be run on a simple GUI designed with simplicity and ease of use in mind.
+The spam detection tool uses a Multinomial Naive Bayes machine learning model to label emails as spam or ham (meaning not-spam), based on both the subject and the message. The model was trained on a publicly available dataset of labeled emails (credited in the documentation) and can be run on a simple GUI designed with simplicity and ease of use in mind.
 
 ### Features
 
-* <b>Spam Detection</b>: Classifies a given email as spam or ham
+* <b>Spam Detection</b>: Classifies a given email as spam or ham.
 * <b>Graphical User Interface</b>: User-friendly interface created with Tkinter, allowing non-technical users to take advantage of the tool.
-* <b>Self-contained Predictive Functionality</b>: Includes a pre-trained model and vectorizer. No need for resource-intensive re-training.
+* <b>Self-contained Predictive Functionality</b>: Includes a trained and model with optimized hyperparameters and vectorizer. No need for resource-intensive re-training.
 
 ### Documentation
 
@@ -27,12 +27,15 @@ To run this project, please ensure you have the required libraries installed. To
 ##### Running the Application
 
 1. Clone the repository to your local machine:
+
 <code>TUTAJ LINK</code>
 
 2. Navigate to the project directory
+
 <code>TUTAJ SCIEZKA</code>
 
 3. Start the application by running the GUI
+
 <code>python gui.py</code>
 
 ##### Example Usage
