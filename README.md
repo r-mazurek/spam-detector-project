@@ -1,13 +1,47 @@
+### Spam Detection Personal Project
+
+This project is a spam detection tool bundled with a simple and intuitive GUI. The app allows users to input an email along with its subject, evaluate whether it is likely to be spam or not, and display the result.
+
 ### Project Overview
 
-In this project, I developed a simple email classification app that categorizes user-submitted emails as either spam or not-spam. To achieve this, I trained a machine learning model on pre-processed data, evaluated its performance, and successfully optimized it, reducing the initial error rate by over 25%. The final model was exported using joblib and integrated into a user-friendly GUI built with Tkinter.
+The spam detection tool uses a Multinomial Naive Bayes model to label emails as spam or ham (meaning not-spam), based on both the subject and the message. The model was trained on a publicly available dataset of labeled emails (credited in the documentation) and can be run on a simple GUI designed with simplicity and ease of use in mind.
+
+### Features
+
+* <b>Spam Detection</b>: Classifies a given email as spam or ham
+* <b>Graphical User Interface</b>: User-friendly interface created with Tkinter, allowing non-technical users to take advantage of the tool.
+* <b>Self-contained Predictive Functionality</b>: Includes a pre-trained model and vectorizer. No need for resource-intensive re-training.
 
 ### Documentation
 
-For a detailed explanation of the project, please refer to the documentation.ipynb file. It is a Jupyter notebook that walks through each step of the app development process. This is my first time creating documentation, and I found it to be a valuable learning experience. Any suggestions for improvement are highly appreciated!
+For a detailed explanation of the project, please refer to the documentation.ipynb file. It is a Jupyter notebook that walks through each step of the app development process. This was my first time creating documentation, and I found it to be a valuable learning experience. Any suggestions for improvement are highly appreciated!
 
-### How to Set Up and Test the App:
+### Setup Instructions:
 
-1.	Clone or download the app_files repository.
-2.	Run the GUI.py script.
-3.	The app should now be up and running!
+##### Prerequisites
+
+To run this project, please ensure you have the required libraries installed. To do this, simply run this command:
+
+<code>pip install joblib scikit-learn numpy tkinter</code>
+
+##### Running the Application
+
+1. Clone the repository to your local machine:
+<code>TUTAJ LINK</code>
+
+2. Navigate to the project directory
+<code>TUTAJ SCIEZKA</code>
+
+3. Start the application by running the GUI
+<code>python gui.py</code>
+
+##### Example Usage
+
+1. Enter a subject and message in the respective fields.
+2. Press Evaluate to see the result displayed below.
+
+### Feedback & Contant Info
+
+Any feedback would be highly appreciated. Please don’t hesitate to contact me.
+
+e-mail: r.mazurek.986@studms.ug.edu.pl
