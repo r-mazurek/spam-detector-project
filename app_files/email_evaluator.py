@@ -1,7 +1,7 @@
 from joblib import load
 
-model = load('spam_detection_best_model.joblib')
-vectorizer = load('vectorizer.joblib')
+model = load('app_files\\spam_detection_best_model.joblib')
+vectorizer = load('app_files\\vectorizer.joblib')
 
 def preprocess_text(subject, message):
     email_contents = subject + ' ' + message

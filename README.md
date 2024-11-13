@@ -28,11 +28,9 @@ To run this project, please ensure you have the required libraries installed. To
 
 1. Clone the repository to your local machine:
 
-<code>TUTAJ LINK</code>
+<code>git clone git@github.com:r-mazurek/spam-detector-project.git</code>
 
 2. Navigate to the project directory
-
-<code>TUTAJ SCIEZKA</code>
 
 3. Start the application by running the GUI
 
@@ -47,4 +45,4 @@ To run this project, please ensure you have the required libraries installed. To
 
 Any feedback would be highly appreciated. Please don’t hesitate to contact me.
 
-e-mail: r.mazurek.986@studms.ug.edu.pl
+e-mail: rafalm2404@gmail.com
