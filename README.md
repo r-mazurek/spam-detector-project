@@ -6,6 +6,10 @@ This project is a spam detection tool bundled with a simple and intuitive GUI. T
 
 The spam detection tool uses a Multinomial Naive Bayes machine learning model to label emails as spam or ham (meaning not-spam), based on both the subject and the message. The model was trained on a publicly available dataset of labeled emails (credited in the documentation) and can be run on a simple GUI designed with simplicity and ease of use in mind.
 
+### Preview
+
+![screenshot](project_screenshots/project_screenshot_main.png)
+
 ### Features
 
 * <b>Spam Detection</b>: Classifies a given email as spam or ham.
@@ -34,7 +38,7 @@ To run this project, please ensure you have the required libraries installed. To
 
 3. Start the application by running the GUI
 
-<code>python gui.py</code>
+<code>python app_files/gui.py</code>
 
 ##### Example Usage
 
